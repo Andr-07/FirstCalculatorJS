@@ -4,6 +4,13 @@ function clearAll() {
     clearVar();
 }
 
+function clearLast() {
+    if (inputWindow.value) {
+        inputWindow.value = inputWindow.value.substring(0, inputWindow.value.length - 1);
+        }
+        num1 = inputWindow.value;
+    }
+
 function clearVar() {
     num1 = undefined;
     num2 = undefined;

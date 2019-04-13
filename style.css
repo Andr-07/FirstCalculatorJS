@@ -15,7 +15,7 @@ body {
     }
     
     .tableButtons > div {
-        background-color: rgb(249, 249, 249);
+        /* background-color: rgb(249, 249, 249); */
         text-align: center;
         padding: 2px 0;
         line-height: 50px;
@@ -36,6 +36,9 @@ input {
     background: rgba(255,255,255,0.5);
     margin: 0 0 10px 0;
     align-items: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+
 }
 
 img {

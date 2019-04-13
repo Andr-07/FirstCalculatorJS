@@ -5,6 +5,7 @@ let inputWindow = document.querySelector("#window");
 let equal = document.querySelector(".equal");
 let clear = document.querySelector(".clear");
 let dot = document.querySelector(".dot");
+let backspace = document.querySelector(".backspace");
 
 let key = false;
 let num1, num2;
@@ -52,5 +53,9 @@ tableButtons.addEventListener('click', function(event) {
         case "clear":
             clearAll();
             break;
+
+        case "backspace":
+        clearLast();
+        break; 
     }
 });
